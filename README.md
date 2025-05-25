@@ -9,6 +9,6 @@
 | **Media Service**         | Photo/video upload, thumbnail/transcode pipeline, encrypted storage, ACL enforcement.                                                            |
 | **Event Service**         | Master event calendar CRUD, Google Calendar sync (via OAuth scopes), personal-calendar export.                                                             |
 | **Notification Service**  | Email dispatch (Gmail SMTP/API) for invites, reminders; push eventually via FCM/APNs.                                                                      |
-| **Group/Permissions Service** | Optional: defines “Family” or custom groups, ACLs for sharing posts/albums.                                                                            |
-| **Gateway Config & Discovery** | (e.g. Consul / Kubernetes DNS) for service discovery, health checks.                                                                                  |
-| **Message Broker**        | async workflows: media transcode, email jobs, feed updates.                                                            |
+| **Group/Permissions Service** | ACLs for sharing posts/albums.                                                                            |
+| **Gateway Config & Discovery** | Service discovery, health checks.                                                                                  |
+| **Message Broker**        | Async workflows: media transcode, email jobs, feed updates.                                                            |
